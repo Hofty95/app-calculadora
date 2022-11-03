@@ -1,0 +1,17 @@
+a. ¿Qué hubiese sucedido si, en vez de generar un archivo por cada operación 
+matemática, hubiésemos programado todo en un mismo archivo? 
+
+-creo que se hubiera tenido que hacer module.exports por cada operacion y
+luego tambien el objeto que contenga a las operaciones para exportar, 
+lo que haria que sea un archivo mas largo, capaz madio dificil de leer y mas desordenado.
+
+b. ¿Por qué el mejor camino es generar distintos archivos y luego requerirlos en uno solo?
+
+-Por que al generar varios archivos no solo tengo las operaciones separadas y mas ordenadas , 
+sino que luego al requerirlas en uno solo para despues usar en el app me ahorra el tener que requerir una 
+por una en el archivo app.
+
+c. ¿Será esta metodología de trabajo una constante de aquí en adelante?
+
+-Si creo que si ya que nos permite ordenar nuestro proyecto y hacer que el codigo quede mas facil de leer, 
+sera muy util cuando realicemos proyectos cada vez mas complejos.
